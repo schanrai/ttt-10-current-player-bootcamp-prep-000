@@ -32,3 +32,5 @@ def turn_count(board)
       puts "I am in the zone"
     end
 end 
+
+turn_count(board)
