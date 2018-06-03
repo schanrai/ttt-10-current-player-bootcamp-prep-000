@@ -26,11 +26,9 @@ end
 board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
 
 def turn_count(board)
-  counter = 0
+
   board.each do |jason|
     if jason == "X" || "O"
-      counter = counter + 1
+      puts "I am in the zone"
     end
-  puts counter
-  end
 end 
