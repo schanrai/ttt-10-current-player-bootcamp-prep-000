@@ -31,6 +31,7 @@ def turn_count(board)
     if jason == "X" || "O"
       puts "I am in the zone"
     end
+  end
 end 
 
 turn_count(board)
