@@ -17,5 +17,9 @@ end
 
 
 
-
+#if turn_coat.even?
+  #return "X"
+#else
+  #return "O"
+#end
 
