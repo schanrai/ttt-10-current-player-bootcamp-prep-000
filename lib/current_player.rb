@@ -3,7 +3,7 @@ board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
 def turn_count(board)
   counter = 0
   board.each do |jason|
-    if jason == "X" || "O"
+    if jason == "X" || jason == "O"
       counter = counter + 1
     end
   puts counter
@@ -23,20 +23,4 @@ end
 #end
 
 
-board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
 
-def turn_count(board)
-
-  board.each do |jason|
-    if jason == "X" || jason == "O"
-      puts "I am in the zone"
-    end
-  end
-end 
-
-
-board.each do |jason|
-      puts "I am in the zone"
-end
-  
-turn_count(board)
