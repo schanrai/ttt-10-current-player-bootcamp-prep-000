@@ -13,9 +13,7 @@ end
 # block returns the number of turns that have been played
 
 #X is all odd numbers and O is all even numbers
-# count = 0
-# board.each do |jason|
-# if jason ="O" || "X"
+
 
 
 
