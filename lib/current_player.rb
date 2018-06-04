@@ -14,10 +14,16 @@ end
 
 #X is all odd numbers and O is all even numbers
 
+def current_player(board)
+  if turn_count(board) % 2 = 1
+    return "X"
+  else
+    return "O"
+  end  
+end  
 
 
-
-#if turn_coat.even?
+#if turn_count.odd?
   #return "X"
 #else
   #return "O"
