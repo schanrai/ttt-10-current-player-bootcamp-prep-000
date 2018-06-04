@@ -6,8 +6,8 @@ def turn_count(board)
     if jason == "X" || jason == "O"
       counter = counter + 1
     end
-  return counter
   end
+  put counter
 end  
 
 # block returns the number of turns that have been played
