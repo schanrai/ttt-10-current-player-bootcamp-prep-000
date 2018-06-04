@@ -6,7 +6,7 @@ def turn_count(board)
     if jason == "X" || jason == "O"
       counter = counter + 1
     end
-  puts counter
+  return counter
   end
 end  
 
