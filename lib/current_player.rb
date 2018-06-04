@@ -7,7 +7,7 @@ def turn_count(board)
       counter = counter + 1
     end
   end
-  return counter
+ puts counter
 end  
 
 # block returns the number of turns that have been played
