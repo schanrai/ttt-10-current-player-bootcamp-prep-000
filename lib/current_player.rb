@@ -35,8 +35,8 @@ def turn_count(board)
 end 
 
 
-  board.each do |jason|
+board.each do |jason|
       puts "I am in the zone"
-  end
+end
   
 turn_count(board)
