@@ -15,7 +15,7 @@ end
 #X is all odd numbers and O is all even numbers
 
 def current_player(board)
-  if turn_count(board) % 2 = 0
+  if turn_count.even?
     return "O"
   else
     return "X"
